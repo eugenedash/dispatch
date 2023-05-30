@@ -90,3 +90,6 @@ def dispatch_crew(address):
 def main():
     # Основная функция для взаимодействия с пользователем
     pass
+if __name__ == "__main__":
+    dispatcher = Dispatcher()
+    dispatcher.main()
