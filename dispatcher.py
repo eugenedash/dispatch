@@ -65,3 +65,28 @@ class Dispatcher:
         patient_condition = input("Введите состояние больного: ")
         self.inform_crew(request_id, patient_condition)
         self.dispatch_crew(request_id)
+
+def receive_request(address, patient_info):
+    pass
+
+def inform_crew(patient_condition):
+    pass
+
+def dispatch_crew(address):
+    pass
+
+def receive_request(address, patient_info):
+ # Обработка заявки на получение скорой помощи
+    pass
+
+def inform_crew(patient_condition):
+    # Информирование бригады о состоянии больного
+    pass
+
+def dispatch_crew(address):
+    # Отправка бригады на указанный адрес
+    pass
+
+def main():
+    # Основная функция для взаимодействия с пользователем
+    pass
